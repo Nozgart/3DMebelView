@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Three.js Starter</title>    
+    <style>.output{ width:500px;height:500px;margin:auto;}
+    </style>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //Скрыть PopUp при загрузке страницы    
+            PopUpHide();
+        });
+        //Функция отображения PopUp
+        function PopUpShow(){
+            $("#popup1").show();
+        }
+        //Функция скрытия PopUp
+        function PopUpHide(){
+            $("#popup1").hide();
+        }
+    </script>
+</head>
+
+<body>
+    <div class="b-container">
+        Sample Text
+        <a class="startbutton" href="javascript:PopUpShow()">Show popup</a>
+    </div>
+    <div class="b-popup" id="popup1">
+        <div class="b-popup-content">
+        <a class="stopbutton" href="javascript:PopUpHide()">Hide popup</a>
+        </div>
+    </div>
+</body>
+
+</html>
