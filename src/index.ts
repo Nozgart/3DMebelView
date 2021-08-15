@@ -12,7 +12,7 @@ const outputDir = document.querySelector(".b-popup-content");
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, outputDir.clientWidth / outputDir.clientHeight, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer();
-
+var rotation = true;
 renderer.setSize(outputDir.clientWidth, outputDir.clientHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setClearColor(0xDDDDDD, 1);
@@ -20,6 +20,7 @@ renderer.setClearColor(0xDDDDDD, 1);
 document.querySelector(".b-popup-content").appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
+controls.enablePan = false;
 var myObject = new THREE.Object3D();
 var id;
 var smesh =0;
@@ -31,50 +32,76 @@ scene.add(camera);
 camera.position.z = 2;
 
 var initializeModels = function(modelName){
-modelName='1';
-const manager = new THREE.LoadingManager();
-manager.addHandler(/\.dds$/i, new DDSLoader());
-// comment in the following line and import TGALoader if your asset uses TGA textures
-// manager.addHandler( /\.tga$/i, new TGALoader() );
-new MTLLoader(manager).setPath('models/' + modelName +'/')
-    .load(modelName + '.mtl', function (materials) {
-        materials.preload();
-        new OBJLoader(manager).setMaterials(materials).setPath('models/' + modelName +'/')
-        .load(modelName + '.obj',
-        function (object) {
-            object.scale.set(0.001, 0.001, 0.001);
-            object.position.x += smesh;
-            smesh += 10;
-            myObject.add(object)
-        }, 
-        function (xhr) {
-            console.log((xhr.loaded / xhr.total * 100) + '% loaded');
-        }, 
-        function (error) {
-            console.log('An error happened: ' + error);
-        });
-});
-scene.add(myObject);
-animate(myObject);
+    
+    modelName=1;
+    const manager = new THREE.LoadingManager();
+    manager.addHandler(/\.dds$/i, new DDSLoader());
+
+    new MTLLoader(manager).setPath('models/' + modelName +'/')
+        .load(modelName + '.mtl', function (materials) {
+            materials.preload();
+            new OBJLoader(manager).setMaterials(materials).setPath('models/' + modelName +'/')
+            .load(modelName + '.obj',
+            function (object) {
+                object.scale.set(0.001, 0.001, 0.001);
+                //myObject.position.x += smesh;
+                //smesh += 1;
+                myObject.add(object);            
+            }, 
+            function (xhr) {
+                console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+            }, 
+            function (error) {
+                console.log('An error happened: ' + error);
+            });
+    });
+
+    scene.add(myObject);
+    animate(myObject);
 }
 
 export var animate = function (_object: THREE.Object3D) {
     id = requestAnimationFrame(animate);
-    myObject.rotation.y += 0.01;
+    rotateObject();
     controls.update();
     render();
 };
+
+function rotateObject() {   
+    controls.autoRotate = rotation
+}
+
+function desideRotateObject() {
+    rotation = !rotation;
+    return rotation;
+}
+
 function render() {
     renderer.render(scene, camera);
 }
 
 function stopAnimationFrame() {
-    //myObject.dispose();
+
+    console.log('scene.children.length: ' + scene.children.length);
+    scene.remove(myObject);
+    console.log('scene.children.length: ' + scene.children.length);
+
+
+    console.log('myObject.children.length before remove: ' + myObject.children.length);
+    while(myObject.children.length > 0){ 
+       myObject.remove(myObject.children[0]); 
+    } 
+    console.log('myObject.children.length after remove: ' + myObject.children.length);
+
+    myObject.rotation.y=0;
+    rotation = true;
+    renderer.renderLists.dispose();//что это?
     cancelAnimationFrame(id);
 }
 
 document.querySelector('.startbutton').addEventListener('click', initializeModels);
 document.querySelector('.stopbutton').addEventListener('click', stopAnimationFrame);
+document.querySelector('.rotatebutton').addEventListener('click', desideRotateObject);
 
 // window.addEventListener('resize', onWindowResize, false);
 
