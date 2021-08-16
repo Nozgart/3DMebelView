@@ -12,7 +12,8 @@ const outputDir = document.querySelector(".b-popup-content");
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, outputDir.clientWidth / outputDir.clientHeight, 0.1, 10);
 const renderer = new THREE.WebGLRenderer();
-var rotation = true;
+var maxDistance = 5;
+var minDistance = 3;
 renderer.setSize(outputDir.clientWidth, outputDir.clientHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setClearColor(0xDDDDDD, 1);
@@ -21,22 +22,29 @@ document.querySelector(".b-popup-content").appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enablePan = false;
-controls.maxDistance = 5;
-controls.minDistance = 3;
+controls.maxDistance = maxDistance;
+controls.minDistance = minDistance;
+
+controls.maxPolarAngle =  1.5;
+//controls.minPolarAngle = 2;
+
+//controls.maxAzimuthAngle =  1;
+//controls.minAzimuthAngle = -1;
 
 var myObject = new THREE.Object3D();
 var id;
+var rotation;
 var smesh =0;
 const ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
 const pointLight = new THREE.PointLight(0xffffff, 0.8);
 camera.add(pointLight);
 scene.add(ambientLight);
 scene.add(camera);
-camera.position.z = 3;
+camera.position.z = minDistance;
+rotateSetUp();
 
-
-var initializeModels = function(modelName){
-    
+var initializeModels = function(modelName)
+{    
     modelName=1;
     const manager = new THREE.LoadingManager();
     manager.addHandler(/\.dds$/i, new DDSLoader());
@@ -60,44 +68,51 @@ var initializeModels = function(modelName){
             });
     });
     controls.target = myObject.position;
-    
+
     scene.add(myObject);
-    animate(myObject);
+    animate();
 }
 
-export var animate = function (_object: THREE.Object3D) {
+export var animate = function () 
+{
     id = requestAnimationFrame(animate);
     rotateObject();
     controls.update();
     render();
 };
 
-function rotateObject() {   
-    controls.autoRotate = rotation
-}
-
-function desideRotateObject() {
+function desideRotateObject() 
+{
     rotation = !rotation;
     return rotation;
 }
 
-function render() {
-    renderer.render(scene, camera);
-}
+function rotateObject() { controls.autoRotate = rotation; }
 
-function stopAnimationFrame() {
-    camera.position.y = 0;
-    camera.position.x = 0;
+function rotateSetUp() { rotation = false; }
+
+function render() { renderer.render(scene, camera); }
+
+function stopAnimationFrame() 
+{
+    console.log('camera.position.y: ' + camera.position.y);
+    console.log('camera.position.x: ' + camera.position.x);
+    camera.position.set(0,0,minDistance);
+    console.log('camera.position.y: ' + camera.position.y);
+    console.log('camera.position.x: ' + camera.position.x);
+
+
     console.log('scene.children.length: ' + scene.children.length);
     scene.remove(myObject);
     console.log('scene.children.length: ' + scene.children.length);
 
+
     console.log('myObject.children.length before remove: ' + myObject.children.length);
-    while(myObject.children.length > 0){ 
-       myObject.remove(myObject.children[0]); 
-    } 
+    while(myObject.children.length > 0) { myObject.remove(myObject.children[0]); } 
     console.log('myObject.children.length after remove: ' + myObject.children.length);
-    rotation = true;
+
+
+    rotateSetUp();
     renderer.renderLists.dispose();//что это?
     cancelAnimationFrame(id);
 }
