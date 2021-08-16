@@ -1,0 +1,1698 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v4.1.134715837)
+
+mtllib 4.mtl
+
+# 285 vertex positions
+v  16 0 0
+v  1.101341240428155e-13 0 500
+v  0 0 3.552713678800501e-15
+v  16 0 500
+v  1.101341240428155e-13 2400 500
+v  16 2400 500
+v  0 2400 3.552713678800501e-15
+v  16 2400 0
+v  700 0 3.552713678800501e-15
+v  684 0 500
+v  684 0 7.105427357601002e-15
+v  700 0 500
+v  684 2400 500
+v  700 2400 500
+v  684 2400 7.105427357601002e-15
+v  700 2400 3.552713678800501e-15
+v  16 70 500
+v  684 86 500
+v  16 86 500
+v  684 70 500
+v  684 86 0
+v  684 70 0
+v  16 86 0
+v  16 70 0
+v  16 2384 500
+v  684 2384 500
+v  684 2400 0
+v  684 2384 0
+v  16 2384 0
+v  16 2000 500
+v  684 2016 500
+v  16 2016 500
+v  684 2000 500
+v  684 2016 0
+v  684 2000 0
+v  16 2016 0
+v  16 2000 0
+v  16 1614 500
+v  684 1630 500
+v  16 1630 500
+v  684 1614 500
+v  684 1630 0
+v  684 1614 0
+v  16 1630 0
+v  16 1614 0
+v  16 1228 500
+v  684 1244 500
+v  16 1244 500
+v  684 1228 500
+v  684 1244 0
+v  684 1228 0
+v  16 1244 0
+v  16 1228 0
+v  16 889 500
+v  684 905 500
+v  16 905 500
+v  684 889 500
+v  684 905 0
+v  684 889 0
+v  16 905 0
+v  16 889 0
+v  16 -1.27897692436818e-13 467
+v  684 -1.27897692436818e-13 483
+v  16 -1.27897692436818e-13 483
+v  684 -1.27897692436818e-13 467
+v  684 70 483
+v  684 70 467
+v  16 70 483
+v  16 70 467
+v  29 96 32
+v  45 202 32
+v  45 96 32
+v  29 202 32
+v  45 202 482
+v  29 202 482
+v  45 96 482
+v  29 96 482
+v  655 96 32
+v  671 202 32
+v  671 96 32
+v  655 202 32
+v  671 202 482
+v  655 202 482
+v  671 96 482
+v  655 96 482
+v  655 96 48
+v  45 96 48
+v  655 202 48
+v  45 202 48
+v  45 96 466
+v  655 96 466
+v  655 202 466
+v  45 202 466
+v  18 89 482
+v  682 89 498
+v  18 89 498
+v  682 89 482
+v  682 249 498
+v  682 249 482
+v  18 249 498
+v  18 249 482
+v  671 93 482
+v  671 93 32
+v  29 93 32
+v  29 93 482
+v  29 108 32
+v  29 128 482
+v  29 108 482
+v  29 128 32
+v  16 128 482
+v  16 128 32
+v  16 108 482
+v  16 108 32
+v  671 108 32
+v  684 108 482
+v  671 108 482
+v  684 108 32
+v  684 128 482
+v  684 128 32
+v  671 128 482
+v  671 128 32
+v  29 302 32
+v  45 402 32
+v  45 302 32
+v  29 402 32
+v  45 402 482
+v  29 402 482
+v  45 302 482
+v  29 302 482
+v  655 302 32
+v  671 402 32
+v  671 302 32
+v  655 402 32
+v  671 402 482
+v  655 402 482
+v  671 302 482
+v  655 302 482
+v  655 302 48
+v  45 302 48
+v  655 402 48
+v  45 402 48
+v  45 302 466
+v  655 302 466
+v  655 402 466
+v  45 402 466
+v  18 289 482
+v  682 289 498
+v  18 289 498
+v  682 289 482
+v  682 449 498
+v  682 449 482
+v  18 449 498
+v  18 449 482
+v  671 299 482
+v  671 299 32
+v  29 299 32
+v  29 299 482
+v  29 314 32
+v  29 334 482
+v  29 314 482
+v  29 334 32
+v  16 334 482
+v  16 334 32
+v  16 314 482
+v  16 314 32
+v  671 314 32
+v  684 314 482
+v  671 314 482
+v  684 314 32
+v  684 334 482
+v  684 334 32
+v  671 334 482
+v  671 334 32
+v  29 502 32
+v  45 602 32
+v  45 502 32
+v  29 602 32
+v  45 602 482
+v  29 602 482
+v  45 502 482
+v  29 502 482
+v  655 502 32
+v  671 602 32
+v  671 502 32
+v  655 602 32
+v  671 602 482
+v  655 602 482
+v  671 502 482
+v  655 502 482
+v  655 502 48
+v  45 502 48
+v  655 602 48
+v  45 602 48
+v  45 502 466
+v  655 502 466
+v  655 602 466
+v  45 602 466
+v  18 489 482
+v  682 489 498
+v  18 489 498
+v  682 489 482
+v  682 649 498
+v  682 649 482
+v  18 649 498
+v  18 649 482
+v  671 499 482
+v  671 499 32
+v  29 499 32
+v  29 499 482
+v  29 514 32
+v  29 534 482
+v  29 514 482
+v  29 534 32
+v  16 534 482
+v  16 534 32
+v  16 514 482
+v  16 514 32
+v  671 514 32
+v  684 514 482
+v  671 514 482
+v  684 514 32
+v  684 534 482
+v  684 534 32
+v  671 534 482
+v  671 534 32
+v  29 702 32
+v  45 802 32
+v  45 702 32
+v  29 802 32
+v  45 802 482
+v  29 802 482
+v  45 702 482
+v  29 702 482
+v  655 702 32
+v  671 802 32
+v  671 702 32
+v  655 802 32
+v  671 802 482
+v  655 802 482
+v  671 702 482
+v  655 702 482
+v  655 702 48
+v  45 702 48
+v  655 802 48
+v  45 802 48
+v  45 702 466
+v  655 702 466
+v  655 802 466
+v  45 802 466
+v  18 689 482
+v  682 689 498
+v  18 689 498
+v  682 689 482
+v  682 849 498
+v  682 849 482
+v  18 849 498
+v  18 849 482
+v  671 699 482
+v  671 699 32
+v  29 699 32
+v  29 699 482
+v  29 714 32
+v  29 734 482
+v  29 714 482
+v  29 734 32
+v  16 734 482
+v  16 734 32
+v  16 714 482
+v  16 714 32
+v  671 714 32
+v  684 714 482
+v  671 714 482
+v  684 714 32
+v  684 734 482
+v  684 734 32
+v  671 734 482
+v  671 734 32
+v  1.5 71.5 -3
+v  698.5 71.5 0
+v  1.5 71.5 0
+v  698.5 71.5 -3
+v  698.5 2398.5 0
+v  698.5 2398.5 -3
+v  1.5 2398.5 0
+v  1.5 2398.5 -3
+
+# 124 UV coordinates
+vt 0 0 0
+vt -0.01600000075995922 -0.5 0
+vt -0.01600000075995922 -9.79685110354862e-19 0
+vt 3.061515884555943e-17 -0.5 0
+vt -0.01600000075995922 -2.900000095367432 0
+vt 1.775679239512227e-16 -2.900000095367432 0
+vt -0.01600000075995922 -3.400000095367432 0
+vt 2.081830827967821e-16 -3.400000095367432 0
+vt -0.01600000075995922 -5.800000190734863 0
+vt 3.551358479024453e-16 -5.800000190734863 0
+vt 0.5 -2.400000095367432 0
+vt 0 -2.400000095367432 0
+vt 0.5 0 0
+vt -0.01600000075995922 -0.6679999828338623 0
+vt 4.090185121181578e-17 -0.6679999828338623 0
+vt -0.01600000075995922 -1.167999982833862 0
+vt 7.151701005737521e-17 -1.167999982833862 0
+vt -0.01600000075995922 -1.835999965667725 0
+vt 1.12418861269191e-16 -1.835999965667725 0
+vt -0.01600000075995922 -2.335999965667725 0
+vt 1.430340201147504e-16 -2.335999965667725 0
+vt -0.5 -0.6679999828338623 0
+vt -6.740754805355325e-33 1.110223024625157e-16 0
+vt -0.5 7.979727989493313e-17 0
+vt -0.01600000075995922 -0.7379999756813049 0
+vt 4.518797358254299e-17 -0.7379999756813049 0
+vt -0.01600000075995922 -1.406000018119812 0
+vt 8.608982810308122e-17 -1.406000018119812 0
+vt -0.01600000075995922 -1.47599995136261 0
+vt 9.037594716508599e-17 -1.47599995136261 0
+vt -0.07000000029802322 -0.6679999828338623 0
+vt -0.07000000029802322 1.07552855510562e-16 0
+vt -0.01600000075995922 -0.1059999987483025 0
+vt 6.490413532983534e-18 -0.1059999987483025 0
+vt -0.01600000075995922 -0.5559999942779541 0
+vt 3.40440574038857e-17 -0.5559999942779541 0
+vt -0.01600000075995922 -0.6620000004768372 0
+vt 4.053447052327892e-17 -0.6620000004768372 0
+vt -0.01600000075995922 -1.111999988555908 0
+vt 6.808811480777139e-17 -1.111999988555908 0
+vt -0.1059999987483025 -0.449999988079071 0
+vt -0.1059999987483025 0 0
+vt 2.755364263013124e-17 -0.449999988079071 0
+vt -0.01600000075995922 -0.6100000143051147 0
+vt 3.735049352688471e-17 -0.6100000143051147 0
+vt -0.01600000075995922 -0.7160000205039978 0
+vt 4.384090664627794e-17 -0.7160000205039978 0
+vt -0.01600000075995922 -1.325999975204468 0
+vt 8.11914034818851e-17 -1.325999975204468 0
+vt -0.01600000075995922 -1.432000041007996 0
+vt 8.768181329255588e-17 -1.432000041007996 0
+vt -0.1059999987483025 -0.6100000143051147 0
+vt -0.1059999987483025 -6.490413532983534e-18 0
+vt -0.01600000075995922 -0.6639999747276306 0
+vt 4.065692964988372e-17 -0.6639999747276306 0
+vt -0.01600000075995922 -0.8240000009536743 0
+vt 5.045378220099842e-17 -0.8240000009536743 0
+vt -0.01600000075995922 -1.48800003528595 0
+vt 9.111071515960459e-17 -1.48800003528595 0
+vt -0.01600000075995922 -1.648000001907349 0
+vt 1.009075644019968e-16 -1.648000001907349 0
+vt 0.6639999747276306 -0.1599999964237213 0
+vt 0 -0.1599999964237213 0
+vt 0.6639999747276306 0 0
+vt -0.003000000026077032 -0.449999988079071 0
+vt -0.003000000026077032 -1.836909517291881e-19 0
+vt -0.003000000026077032 -1.092000007629395 0
+vt 6.686350368938869e-17 -1.092000007629395 0
+vt -0.003000000026077032 -1.54200005531311 0
+vt 9.441714797388116e-17 -1.54200005531311 0
+vt -0.003000000026077032 -2.184000015258789 0
+vt 1.337270073787774e-16 -2.184000015258789 0
+vt -0.449999988079071 -0.6420000195503235 0
+vt -0.449999988079071 -2.755364263013124e-17 0
+vt 5.551115123125783e-17 -0.6420000195503235 0
+vt 0.01999999955296516 -0.449999988079071 0
+vt 0 -0.449999988079071 0
+vt 0.01999999955296516 0 0
+vt 0.03299999982118607 -0.449999988079071 0
+vt 0.03299999982118607 0 0
+vt 0.05299999937415123 -0.449999988079071 0
+vt 0.05299999937415123 0 0
+vt 0.06599999964237213 -0.449999988079071 0
+vt 0.06599999964237213 0 0
+vt 0 -0.03500000014901161 0
+vt -0.0130000002682209 -0.01499999966472387 0
+vt -0.0130000002682209 -0.03500000014901161 0
+vt 0 -0.01499999966472387 0
+vt 0.0130000002682209 -0.449999988079071 0
+vt 0.0130000002682209 0 0
+vt 0.04600000008940697 -0.449999988079071 0
+vt 0.04600000008940697 0 0
+vt 0.0130000002682209 -0.03500000014901161 0
+vt 0.0130000002682209 -0.01499999966472387 0
+vt -0.01600000075995922 -0.1000000014901161 0
+vt 6.123031603675764e-18 -0.1000000014901161 0
+vt -0.01600000075995922 -0.550000011920929 0
+vt 3.367667340662639e-17 -0.550000011920929 0
+vt -0.01600000075995922 -0.6499999761581421 0
+vt 3.979970583748277e-17 -0.6499999761581421 0
+vt -0.01600000075995922 -1.100000023841858 0
+vt 6.735334681325279e-17 -1.100000023841858 0
+vt -0.1000000014901161 -0.449999988079071 0
+vt -0.1000000014901161 0 0
+vt -0.01600000075995922 -0.7099999785423279 0
+vt 4.347352595774109e-17 -0.7099999785423279 0
+vt -0.01600000075995922 -1.320000052452087 0
+vt 8.082401617590335e-17 -1.320000052452087 0
+vt -0.01600000075995922 -1.419999957084656 0
+vt 8.694705191548217e-17 -1.419999957084656 0
+vt -0.1000000014901161 -0.6100000143051147 0
+vt -0.1000000014901161 -6.123031603675764e-18 0
+vt -0.003000000026077032 -0.6970000267028809 0
+vt 4.267753005428131e-17 -0.6970000267028809 0
+vt -0.003000000026077032 -3.023999929428101 0
+vt 1.85160475827504e-16 -3.023999929428101 0
+vt -0.003000000026077032 -3.720999956130981 0
+vt 2.278380191166751e-16 -3.720999956130981 0
+vt -0.003000000026077032 -6.047999858856201 0
+vt 3.70320951655008e-16 -6.047999858856201 0
+vt 0.6970000267028809 -2.32699990272522 0
+vt -1.101549407245273e-16 -5.967448757360216e-16 0
+vt -1.101549407245273e-16 -2.32699990272522 0
+vt 0.6970000267028809 -5.967448757360216e-16 0
+
+# 18 vertex normals
+vn 0 -1 0
+vn 2.220446049250313e-16 0 1
+vn 0 1 0
+vn -2.220446049250313e-16 0 -1
+vn 1 0 -2.220446049250313e-16
+vn -1 0 2.220446049250313e-16
+vn 0 -2.220446049250313e-16 1
+vn 1 0 0
+vn 0 2.220446049250313e-16 -1
+vn -1 0 0
+vn 0 -1 -2.220446049250313e-16
+vn 0 1 2.220446049250313e-16
+vn 0 0 -1
+vn 0 0 1
+vn 2.220446049250313e-16 0 -1
+vn -2.220446049250313e-16 0 1
+vn -1 0 -2.220446049250313e-16
+vn 1 0 2.220446049250313e-16
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  1/1/1 2/2/1 3/3/1
+f  1/1/1 4/4/1 2/2/1
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  4/4/2 5/5/2 2/2/2
+f  4/4/2 6/6/2 5/5/2
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  6/6/3 7/7/3 5/5/3
+f  6/6/3 8/8/3 7/7/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  8/8/4 3/9/4 7/7/4
+f  8/8/4 1/10/4 3/9/4
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  6/11/5 1/1/5 8/12/5
+f  1/1/5 6/11/5 4/13/5
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  3/1/6 5/11/6 7/12/6
+f  5/11/6 3/1/6 2/13/6
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  9/1/1 10/2/1 11/3/1
+f  9/1/1 12/4/1 10/2/1
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  12/4/2 13/5/2 10/2/2
+f  12/4/2 14/6/2 13/5/2
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  14/6/3 15/7/3 13/5/3
+f  14/6/3 16/8/3 15/7/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  16/8/4 11/9/4 15/7/4
+f  16/8/4 9/10/4 11/9/4
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  14/11/5 9/1/5 16/12/5
+f  9/1/5 14/11/5 12/13/5
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  11/1/6 13/11/6 15/12/6
+f  13/11/6 11/1/6 10/13/6
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  17/1/7 18/14/7 19/3/7
+f  17/1/7 20/15/7 18/14/7
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  20/15/8 21/16/8 18/14/8
+f  20/15/8 22/17/8 21/16/8
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  22/17/9 23/18/9 21/16/9
+f  22/17/9 24/19/9 23/18/9
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  24/19/10 19/20/10 23/18/10
+f  24/19/10 17/21/10 19/20/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  22/22/11 17/23/11 24/24/11
+f  17/23/11 22/22/11 20/15/11
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  19/23/12 21/22/12 23/24/12
+f  21/22/12 19/23/12 18/15/12
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  25/1/7 13/14/7 6/3/7
+f  25/1/7 26/15/7 13/14/7
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  26/15/8 27/16/8 13/14/8
+f  26/15/8 28/17/8 27/16/8
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  28/17/9 8/18/9 27/16/9
+f  28/17/9 29/19/9 8/18/9
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  29/19/10 6/20/10 8/18/10
+f  29/19/10 25/21/10 6/20/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  28/22/11 25/23/11 29/24/11
+f  25/23/11 28/22/11 26/15/11
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  6/23/12 27/22/12 8/24/12
+f  27/22/12 6/23/12 13/15/12
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  30/1/7 31/14/7 32/3/7
+f  30/1/7 33/15/7 31/14/7
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  33/15/8 34/16/8 31/14/8
+f  33/15/8 35/17/8 34/16/8
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  35/17/9 36/18/9 34/16/9
+f  35/17/9 37/19/9 36/18/9
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  37/19/10 32/20/10 36/18/10
+f  37/19/10 30/21/10 32/20/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  35/22/11 30/23/11 37/24/11
+f  30/23/11 35/22/11 33/15/11
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  32/23/12 34/22/12 36/24/12
+f  34/22/12 32/23/12 31/15/12
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  38/1/7 39/14/7 40/3/7
+f  38/1/7 41/15/7 39/14/7
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  41/15/8 42/16/8 39/14/8
+f  41/15/8 43/17/8 42/16/8
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  43/17/9 44/18/9 42/16/9
+f  43/17/9 45/19/9 44/18/9
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  45/19/10 40/20/10 44/18/10
+f  45/19/10 38/21/10 40/20/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  43/22/11 38/23/11 45/24/11
+f  38/23/11 43/22/11 41/15/11
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  40/23/12 42/22/12 44/24/12
+f  42/22/12 40/23/12 39/15/12
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  46/1/7 47/14/7 48/3/7
+f  46/1/7 49/15/7 47/14/7
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  49/15/8 50/16/8 47/14/8
+f  49/15/8 51/17/8 50/16/8
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  51/17/9 52/18/9 50/16/9
+f  51/17/9 53/19/9 52/18/9
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  53/19/10 48/20/10 52/18/10
+f  53/19/10 46/21/10 48/20/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  51/22/11 46/23/11 53/24/11
+f  46/23/11 51/22/11 49/15/11
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  48/23/12 50/22/12 52/24/12
+f  50/22/12 48/23/12 47/15/12
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  54/1/7 55/14/7 56/3/7
+f  54/1/7 57/15/7 55/14/7
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  57/15/8 58/16/8 55/14/8
+f  57/15/8 59/17/8 58/16/8
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  59/17/9 60/18/9 58/16/9
+f  59/17/9 61/19/9 60/18/9
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  61/19/10 56/20/10 60/18/10
+f  61/19/10 54/21/10 56/20/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  59/22/11 54/23/11 61/24/11
+f  54/23/11 59/22/11 57/15/11
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  56/23/12 58/22/12 60/24/12
+f  58/22/12 56/23/12 55/15/12
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  62/1/1 63/14/1 64/3/1
+f  62/1/1 65/15/1 63/14/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  65/15/8 66/25/8 63/14/8
+f  65/15/8 67/26/8 66/25/8
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  67/26/3 68/27/3 66/25/3
+f  67/26/3 69/28/3 68/27/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  69/28/10 64/29/10 68/27/10
+f  69/28/10 62/30/10 64/29/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  67/31/13 62/23/13 69/32/13
+f  62/23/13 67/31/13 65/15/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  64/23/14 66/31/14 68/32/14
+f  66/31/14 64/23/14 63/15/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  70/1/15 71/33/15 72/3/15
+f  70/1/15 73/34/15 71/33/15
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  73/34/3 74/35/3 71/33/3
+f  73/34/3 75/36/3 74/35/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  75/36/16 76/37/16 74/35/16
+f  75/36/16 77/38/16 76/37/16
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  77/38/1 72/39/1 76/37/1
+f  77/38/1 70/40/1 72/39/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  73/41/17 77/1/17 75/42/17
+f  77/1/17 73/41/17 70/43/17
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  76/1/18 71/41/18 74/42/18
+f  71/41/18 76/1/18 72/43/18
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  78/1/15 79/33/15 80/3/15
+f  78/1/15 81/34/15 79/33/15
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  81/34/3 82/35/3 79/33/3
+f  81/34/3 83/36/3 82/35/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  83/36/16 84/37/16 82/35/16
+f  83/36/16 85/38/16 84/37/16
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  85/38/1 80/39/1 84/37/1
+f  85/38/1 78/40/1 80/39/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  81/41/17 85/1/17 83/42/17
+f  85/1/17 81/41/17 78/43/17
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  84/1/18 79/41/18 82/42/18
+f  79/41/18 84/1/18 80/43/18
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  72/1/1 86/44/1 87/3/1
+f  72/1/1 78/45/1 86/44/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  78/45/8 88/46/8 86/44/8
+f  78/45/8 81/47/8 88/46/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  81/47/3 89/48/3 88/46/3
+f  81/47/3 71/49/3 89/48/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  71/49/10 87/50/10 89/48/10
+f  71/49/10 72/51/10 87/50/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  81/52/13 72/1/13 71/53/13
+f  72/1/13 81/52/13 78/45/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  87/1/14 88/52/14 89/53/14
+f  88/52/14 87/1/14 86/45/14
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  90/1/1 85/44/1 76/3/1
+f  90/1/1 91/45/1 85/44/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  91/45/8 83/46/8 85/44/8
+f  91/45/8 92/47/8 83/46/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  92/47/3 74/48/3 83/46/3
+f  92/47/3 93/49/3 74/48/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  93/49/10 76/50/10 74/48/10
+f  93/49/10 90/51/10 76/50/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  92/52/13 90/1/13 93/53/13
+f  90/1/13 92/52/13 91/45/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  76/1/14 83/52/14 74/53/14
+f  83/52/14 76/1/14 85/45/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  94/1/1 95/54/1 96/3/1
+f  94/1/1 97/55/1 95/54/1
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  97/55/8 98/56/8 95/54/8
+f  97/55/8 99/57/8 98/56/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  99/57/3 100/58/3 98/56/3
+f  99/57/3 101/59/3 100/58/3
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  101/59/10 96/60/10 100/58/10
+f  101/59/10 94/61/10 96/60/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  99/62/13 94/1/13 101/63/13
+f  94/1/13 99/62/13 97/64/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  96/1/14 98/62/14 100/63/14
+f  98/62/14 96/1/14 95/64/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  102/1/8 80/65/8 84/66/8
+f  102/1/8 103/43/8 80/65/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  103/43/9 70/67/9 80/65/9
+f  103/43/9 104/68/9 70/67/9
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  104/68/10 77/69/10 70/67/10
+f  104/68/10 105/70/10 77/69/10
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  105/70/7 84/71/7 77/69/7
+f  105/70/7 102/72/7 84/71/7
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  103/73/11 105/1/11 104/74/11
+f  105/1/11 103/73/11 102/75/11
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  77/1/12 80/73/12 70/74/12
+f  80/73/12 77/1/12 84/75/12
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  106/1/8 107/76/8 108/77/8
+f  106/1/8 109/78/8 107/76/8
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  109/78/3 110/79/3 107/76/3
+f  109/78/3 111/80/3 110/79/3
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  111/80/10 112/81/10 110/79/10
+f  111/80/10 113/82/10 112/81/10
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  113/82/1 108/83/1 112/81/1
+f  113/82/1 106/84/1 108/83/1
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  109/85/13 113/86/13 111/87/13
+f  113/86/13 109/85/13 106/88/13
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  112/86/14 107/85/14 110/87/14
+f  107/85/14 112/86/14 108/88/14
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  114/1/1 115/89/1 116/77/1
+f  114/1/1 117/90/1 115/89/1
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  117/90/8 118/79/8 115/89/8
+f  117/90/8 119/80/8 118/79/8
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  119/80/3 120/91/3 118/79/3
+f  119/80/3 121/92/3 120/91/3
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  121/92/10 116/83/10 120/91/10
+f  121/92/10 114/84/10 116/83/10
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  119/93/13 114/88/13 121/85/13
+f  114/88/13 119/93/13 117/94/13
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  116/88/14 118/93/14 120/85/14
+f  118/93/14 116/88/14 115/94/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  122/1/15 123/95/15 124/3/15
+f  122/1/15 125/96/15 123/95/15
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  125/96/3 126/97/3 123/95/3
+f  125/96/3 127/98/3 126/97/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  127/98/16 128/99/16 126/97/16
+f  127/98/16 129/100/16 128/99/16
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  129/100/1 124/101/1 128/99/1
+f  129/100/1 122/102/1 124/101/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  125/103/17 129/1/17 127/104/17
+f  129/1/17 125/103/17 122/43/17
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  128/1/18 123/103/18 126/104/18
+f  123/103/18 128/1/18 124/43/18
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  130/1/15 131/95/15 132/3/15
+f  130/1/15 133/96/15 131/95/15
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  133/96/3 134/97/3 131/95/3
+f  133/96/3 135/98/3 134/97/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  135/98/16 136/99/16 134/97/16
+f  135/98/16 137/100/16 136/99/16
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  137/100/1 132/101/1 136/99/1
+f  137/100/1 130/102/1 132/101/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  133/103/17 137/1/17 135/104/17
+f  137/1/17 133/103/17 130/43/17
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  136/1/18 131/103/18 134/104/18
+f  131/103/18 136/1/18 132/43/18
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  124/1/1 138/44/1 139/3/1
+f  124/1/1 130/45/1 138/44/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  130/45/8 140/105/8 138/44/8
+f  130/45/8 133/106/8 140/105/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  133/106/3 141/107/3 140/105/3
+f  133/106/3 123/108/3 141/107/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  123/108/10 139/109/10 141/107/10
+f  123/108/10 124/110/10 139/109/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  133/111/13 124/1/13 123/112/13
+f  124/1/13 133/111/13 130/45/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  139/1/14 140/111/14 141/112/14
+f  140/111/14 139/1/14 138/45/14
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  142/1/1 137/44/1 128/3/1
+f  142/1/1 143/45/1 137/44/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  143/45/8 135/105/8 137/44/8
+f  143/45/8 144/106/8 135/105/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  144/106/3 126/107/3 135/105/3
+f  144/106/3 145/108/3 126/107/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  145/108/10 128/109/10 126/107/10
+f  145/108/10 142/110/10 128/109/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  144/111/13 142/1/13 145/112/13
+f  142/1/13 144/111/13 143/45/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  128/1/14 135/111/14 126/112/14
+f  135/111/14 128/1/14 137/45/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  146/1/1 147/54/1 148/3/1
+f  146/1/1 149/55/1 147/54/1
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  149/55/8 150/56/8 147/54/8
+f  149/55/8 151/57/8 150/56/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  151/57/3 152/58/3 150/56/3
+f  151/57/3 153/59/3 152/58/3
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  153/59/10 148/60/10 152/58/10
+f  153/59/10 146/61/10 148/60/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  151/62/13 146/1/13 153/63/13
+f  146/1/13 151/62/13 149/64/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  148/1/14 150/62/14 152/63/14
+f  150/62/14 148/1/14 147/64/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  154/1/8 132/65/8 136/66/8
+f  154/1/8 155/43/8 132/65/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  155/43/9 122/67/9 132/65/9
+f  155/43/9 156/68/9 122/67/9
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  156/68/10 129/69/10 122/67/10
+f  156/68/10 157/70/10 129/69/10
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  157/70/7 136/71/7 129/69/7
+f  157/70/7 154/72/7 136/71/7
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  155/73/11 157/1/11 156/74/11
+f  157/1/11 155/73/11 154/75/11
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  129/1/12 132/73/12 122/74/12
+f  132/73/12 129/1/12 136/75/12
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  158/1/8 159/76/8 160/77/8
+f  158/1/8 161/78/8 159/76/8
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  161/78/3 162/79/3 159/76/3
+f  161/78/3 163/80/3 162/79/3
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  163/80/10 164/81/10 162/79/10
+f  163/80/10 165/82/10 164/81/10
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  165/82/1 160/83/1 164/81/1
+f  165/82/1 158/84/1 160/83/1
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  161/85/13 165/86/13 163/87/13
+f  165/86/13 161/85/13 158/88/13
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  164/86/14 159/85/14 162/87/14
+f  159/85/14 164/86/14 160/88/14
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  166/1/1 167/89/1 168/77/1
+f  166/1/1 169/90/1 167/89/1
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  169/90/8 170/79/8 167/89/8
+f  169/90/8 171/80/8 170/79/8
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  171/80/3 172/91/3 170/79/3
+f  171/80/3 173/92/3 172/91/3
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  173/92/10 168/83/10 172/91/10
+f  173/92/10 166/84/10 168/83/10
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  171/93/13 166/88/13 173/85/13
+f  166/88/13 171/93/13 169/94/13
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  168/88/14 170/93/14 172/85/14
+f  170/93/14 168/88/14 167/94/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  174/1/15 175/95/15 176/3/15
+f  174/1/15 177/96/15 175/95/15
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  177/96/3 178/97/3 175/95/3
+f  177/96/3 179/98/3 178/97/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  179/98/16 180/99/16 178/97/16
+f  179/98/16 181/100/16 180/99/16
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  181/100/1 176/101/1 180/99/1
+f  181/100/1 174/102/1 176/101/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  177/103/17 181/1/17 179/104/17
+f  181/1/17 177/103/17 174/43/17
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  180/1/18 175/103/18 178/104/18
+f  175/103/18 180/1/18 176/43/18
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  182/1/15 183/95/15 184/3/15
+f  182/1/15 185/96/15 183/95/15
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  185/96/3 186/97/3 183/95/3
+f  185/96/3 187/98/3 186/97/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  187/98/16 188/99/16 186/97/16
+f  187/98/16 189/100/16 188/99/16
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  189/100/1 184/101/1 188/99/1
+f  189/100/1 182/102/1 184/101/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  185/103/17 189/1/17 187/104/17
+f  189/1/17 185/103/17 182/43/17
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  188/1/18 183/103/18 186/104/18
+f  183/103/18 188/1/18 184/43/18
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  176/1/1 190/44/1 191/3/1
+f  176/1/1 182/45/1 190/44/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  182/45/8 192/105/8 190/44/8
+f  182/45/8 185/106/8 192/105/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  185/106/3 193/107/3 192/105/3
+f  185/106/3 175/108/3 193/107/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  175/108/10 191/109/10 193/107/10
+f  175/108/10 176/110/10 191/109/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  185/111/13 176/1/13 175/112/13
+f  176/1/13 185/111/13 182/45/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  191/1/14 192/111/14 193/112/14
+f  192/111/14 191/1/14 190/45/14
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  194/1/1 189/44/1 180/3/1
+f  194/1/1 195/45/1 189/44/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  195/45/8 187/105/8 189/44/8
+f  195/45/8 196/106/8 187/105/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  196/106/3 178/107/3 187/105/3
+f  196/106/3 197/108/3 178/107/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  197/108/10 180/109/10 178/107/10
+f  197/108/10 194/110/10 180/109/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  196/111/13 194/1/13 197/112/13
+f  194/1/13 196/111/13 195/45/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  180/1/14 187/111/14 178/112/14
+f  187/111/14 180/1/14 189/45/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  198/1/1 199/54/1 200/3/1
+f  198/1/1 201/55/1 199/54/1
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  201/55/8 202/56/8 199/54/8
+f  201/55/8 203/57/8 202/56/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  203/57/3 204/58/3 202/56/3
+f  203/57/3 205/59/3 204/58/3
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  205/59/10 200/60/10 204/58/10
+f  205/59/10 198/61/10 200/60/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  203/62/13 198/1/13 205/63/13
+f  198/1/13 203/62/13 201/64/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  200/1/14 202/62/14 204/63/14
+f  202/62/14 200/1/14 199/64/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  206/1/8 184/65/8 188/66/8
+f  206/1/8 207/43/8 184/65/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  207/43/9 174/67/9 184/65/9
+f  207/43/9 208/68/9 174/67/9
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  208/68/10 181/69/10 174/67/10
+f  208/68/10 209/70/10 181/69/10
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  209/70/7 188/71/7 181/69/7
+f  209/70/7 206/72/7 188/71/7
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  207/73/11 209/1/11 208/74/11
+f  209/1/11 207/73/11 206/75/11
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  181/1/12 184/73/12 174/74/12
+f  184/73/12 181/1/12 188/75/12
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  210/1/8 211/76/8 212/77/8
+f  210/1/8 213/78/8 211/76/8
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  213/78/3 214/79/3 211/76/3
+f  213/78/3 215/80/3 214/79/3
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  215/80/10 216/81/10 214/79/10
+f  215/80/10 217/82/10 216/81/10
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  217/82/1 212/83/1 216/81/1
+f  217/82/1 210/84/1 212/83/1
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  213/85/13 217/86/13 215/87/13
+f  217/86/13 213/85/13 210/88/13
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  216/86/14 211/85/14 214/87/14
+f  211/85/14 216/86/14 212/88/14
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  218/1/1 219/89/1 220/77/1
+f  218/1/1 221/90/1 219/89/1
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  221/90/8 222/79/8 219/89/8
+f  221/90/8 223/80/8 222/79/8
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  223/80/3 224/91/3 222/79/3
+f  223/80/3 225/92/3 224/91/3
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  225/92/10 220/83/10 224/91/10
+f  225/92/10 218/84/10 220/83/10
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  223/93/13 218/88/13 225/85/13
+f  218/88/13 223/93/13 221/94/13
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  220/88/14 222/93/14 224/85/14
+f  222/93/14 220/88/14 219/94/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  226/1/15 227/95/15 228/3/15
+f  226/1/15 229/96/15 227/95/15
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  229/96/3 230/97/3 227/95/3
+f  229/96/3 231/98/3 230/97/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  231/98/16 232/99/16 230/97/16
+f  231/98/16 233/100/16 232/99/16
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  233/100/1 228/101/1 232/99/1
+f  233/100/1 226/102/1 228/101/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  229/103/17 233/1/17 231/104/17
+f  233/1/17 229/103/17 226/43/17
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  232/1/18 227/103/18 230/104/18
+f  227/103/18 232/1/18 228/43/18
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  234/1/15 235/95/15 236/3/15
+f  234/1/15 237/96/15 235/95/15
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  237/96/3 238/97/3 235/95/3
+f  237/96/3 239/98/3 238/97/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  239/98/16 240/99/16 238/97/16
+f  239/98/16 241/100/16 240/99/16
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  241/100/1 236/101/1 240/99/1
+f  241/100/1 234/102/1 236/101/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  237/103/17 241/1/17 239/104/17
+f  241/1/17 237/103/17 234/43/17
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  240/1/18 235/103/18 238/104/18
+f  235/103/18 240/1/18 236/43/18
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  228/1/1 242/44/1 243/3/1
+f  228/1/1 234/45/1 242/44/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  234/45/8 244/105/8 242/44/8
+f  234/45/8 237/106/8 244/105/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  237/106/3 245/107/3 244/105/3
+f  237/106/3 227/108/3 245/107/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  227/108/10 243/109/10 245/107/10
+f  227/108/10 228/110/10 243/109/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  237/111/13 228/1/13 227/112/13
+f  228/1/13 237/111/13 234/45/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  243/1/14 244/111/14 245/112/14
+f  244/111/14 243/1/14 242/45/14
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  246/1/1 241/44/1 232/3/1
+f  246/1/1 247/45/1 241/44/1
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  247/45/8 239/105/8 241/44/8
+f  247/45/8 248/106/8 239/105/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  248/106/3 230/107/3 239/105/3
+f  248/106/3 249/108/3 230/107/3
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  249/108/10 232/109/10 230/107/10
+f  249/108/10 246/110/10 232/109/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  248/111/13 246/1/13 249/112/13
+f  246/1/13 248/111/13 247/45/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  232/1/14 239/111/14 230/112/14
+f  239/111/14 232/1/14 241/45/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  250/1/1 251/54/1 252/3/1
+f  250/1/1 253/55/1 251/54/1
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  253/55/8 254/56/8 251/54/8
+f  253/55/8 255/57/8 254/56/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  255/57/3 256/58/3 254/56/3
+f  255/57/3 257/59/3 256/58/3
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  257/59/10 252/60/10 256/58/10
+f  257/59/10 250/61/10 252/60/10
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  255/62/13 250/1/13 257/63/13
+f  250/1/13 255/62/13 253/64/13
+
+# Mesh '' with 2 faces
+usemtl DSP_16mm_Dub sonoma svetlyy
+f  252/1/14 254/62/14 256/63/14
+f  254/62/14 252/1/14 251/64/14
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  258/1/8 236/65/8 240/66/8
+f  258/1/8 259/43/8 236/65/8
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  259/43/9 226/67/9 236/65/9
+f  259/43/9 260/68/9 226/67/9
+
+# Mesh '' with 2 faces
+usemtl Kromka 0_4*19 mm Dub sonoma svetlyy
+f  260/68/10 233/69/10 226/67/10
+f  260/68/10 261/70/10 233/69/10
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  261/70/7 240/71/7 233/69/7
+f  261/70/7 258/72/7 240/71/7
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  259/73/11 261/1/11 260/74/11
+f  261/1/11 259/73/11 258/75/11
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  233/1/12 236/73/12 226/74/12
+f  236/73/12 233/1/12 240/75/12
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  262/1/8 263/76/8 264/77/8
+f  262/1/8 265/78/8 263/76/8
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  265/78/3 266/79/3 263/76/3
+f  265/78/3 267/80/3 266/79/3
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  267/80/10 268/81/10 266/79/10
+f  267/80/10 269/82/10 268/81/10
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  269/82/1 264/83/1 268/81/1
+f  269/82/1 262/84/1 264/83/1
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  265/85/13 269/86/13 267/87/13
+f  269/86/13 265/85/13 262/88/13
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  268/86/14 263/85/14 266/87/14
+f  263/85/14 268/86/14 264/88/14
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  270/1/1 271/89/1 272/77/1
+f  270/1/1 273/90/1 271/89/1
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  273/90/8 274/79/8 271/89/8
+f  273/90/8 275/80/8 274/79/8
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  275/80/3 276/91/3 274/79/3
+f  275/80/3 277/92/3 276/91/3
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  277/92/10 272/83/10 276/91/10
+f  277/92/10 270/84/10 272/83/10
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  275/93/13 270/88/13 277/85/13
+f  270/88/13 275/93/13 273/94/13
+
+# Mesh '' with 2 faces
+usemtl Sharikovye napravlyayushchie 100% b/d 450mm
+f  272/88/14 274/93/14 276/85/14
+f  274/93/14 272/88/14 271/94/14
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  278/1/1 279/113/1 280/66/1
+f  278/1/1 281/114/1 279/113/1
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  281/114/8 282/115/8 279/113/8
+f  281/114/8 283/116/8 282/115/8
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  283/116/3 284/117/3 282/115/3
+f  283/116/3 285/118/3 284/117/3
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  285/118/10 280/119/10 284/117/10
+f  285/118/10 278/120/10 280/119/10
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  283/121/13 278/122/13 285/123/13
+f  278/122/13 283/121/13 281/124/13
+
+# Mesh '' with 2 faces
+usemtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+f  280/122/14 282/121/14 284/123/14
+f  282/121/14 280/122/14 279/124/14
+

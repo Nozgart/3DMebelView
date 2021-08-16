@@ -27,7 +27,6 @@ controls.minDistance = minDistance;
 
 controls.maxPolarAngle =  1.5;
 //controls.minPolarAngle = 2;
-
 //controls.maxAzimuthAngle =  1;
 //controls.minAzimuthAngle = -1;
 
@@ -35,6 +34,7 @@ var myObject = new THREE.Object3D();
 var id;
 var rotation;
 var smesh =0;
+var modelName;
 const ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
 const pointLight = new THREE.PointLight(0xffffff, 0.8);
 camera.add(pointLight);
@@ -43,34 +43,41 @@ scene.add(camera);
 camera.position.z = minDistance;
 rotateSetUp();
 
-var initializeModels = function(modelName)
+var initializeModels = function()
 {    
-    modelName=1;
-    const manager = new THREE.LoadingManager();
-    manager.addHandler(/\.dds$/i, new DDSLoader());
+    console.log('pagetitle: ' + document.querySelector('div.page-top-main #pagetitle').textContent);
+    modelName = document.querySelector('div.page-top-main #pagetitle').textContent;
 
-    new MTLLoader(manager).setPath('models/' + modelName +'/')
-        .load(modelName + '.mtl', function (materials) {
-            materials.preload();
-            new OBJLoader(manager).setMaterials(materials).setPath('models/' + modelName +'/')
-            .load(modelName + '.obj',
-            function (object) {
-                object.scale.set(0.001, 0.001, 0.001);
-                //myObject.position.x += smesh;
-                //smesh += 1;
-                myObject.add(object);            
-            }, 
-            function (xhr) {
-                console.log((xhr.loaded / xhr.total * 100) + '% loaded');
-            }, 
-            function (error) {
-                console.log('An error happened: ' + error);
-            });
-    });
-    controls.target = myObject.position;
+    modelName = modelName.replaceAll('*','');
+    
+    if(modelName)
+    {
+        const manager = new THREE.LoadingManager();
+        manager.addHandler(/\.dds$/i, new DDSLoader());
 
-    scene.add(myObject);
-    animate();
+        new MTLLoader(manager).setPath('models/' + modelName +'/')
+            .load(modelName + '.mtl', function (materials) {
+                materials.preload();
+                new OBJLoader(manager).setMaterials(materials).setPath('models/' + modelName +'/')
+                .load(modelName + '.obj',
+                function (object) {
+                    object.scale.set(0.001, 0.001, 0.001);
+                    //myObject.position.x += smesh;
+                    //smesh += 1;
+                    modelName++;
+                    myObject.add(object);            
+                }, 
+                function (xhr) {
+                    console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+                }, 
+                function (error) {
+                    console.log('An error happened: ' + error);
+                });
+        });
+        controls.target = myObject.position;
+        scene.add(myObject);
+        animate();
+    }
 }
 
 export var animate = function () 

@@ -3,13 +3,17 @@
 
 newmtl DSP_16mm_Dub sonoma svetlyy
 illum 1
-map_Kd 1_textures\3025_Dub_Sonoma_Svetlyy.jpg
+map_Kd 4_textures\3025_Dub_Sonoma_Svetlyy.jpg
 
 newmtl Kromka 0_4*19 mm Dub sonoma svetlyy
 illum 1
-map_Kd 1_textures\3025_Dub_Sonoma_Svetlyy.jpg
+map_Kd 4_textures\3025_Dub_Sonoma_Svetlyy.jpg
 
 newmtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
 illum 1
-map_Kd 1_textures\110_SM_Belyy.jpg
+map_Kd 4_textures\110_SM_Belyy.jpg
+
+newmtl Sharikovye napravlyayushchie 100% b/d 450mm
+illum 1
+map_Kd 4_textures\default.bmp
 
