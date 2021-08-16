@@ -10,7 +10,7 @@ import {MTLLoader} from "three/examples/jsm/loaders/MTLLoader";
 
 const outputDir = document.querySelector(".b-popup-content");
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, outputDir.clientWidth / outputDir.clientHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(75, outputDir.clientWidth / outputDir.clientHeight, 0.1, 10);
 const renderer = new THREE.WebGLRenderer();
 var rotation = true;
 renderer.setSize(outputDir.clientWidth, outputDir.clientHeight);
@@ -21,6 +21,9 @@ document.querySelector(".b-popup-content").appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enablePan = false;
+controls.maxDistance = 5;
+controls.minDistance = 3;
+
 var myObject = new THREE.Object3D();
 var id;
 var smesh =0;
@@ -29,7 +32,8 @@ const pointLight = new THREE.PointLight(0xffffff, 0.8);
 camera.add(pointLight);
 scene.add(ambientLight);
 scene.add(camera);
-camera.position.z = 2;
+camera.position.z = 3;
+
 
 var initializeModels = function(modelName){
     
@@ -55,7 +59,8 @@ var initializeModels = function(modelName){
                 console.log('An error happened: ' + error);
             });
     });
-
+    controls.target = myObject.position;
+    
     scene.add(myObject);
     animate(myObject);
 }
@@ -81,19 +86,17 @@ function render() {
 }
 
 function stopAnimationFrame() {
-
+    camera.position.y = 0;
+    camera.position.x = 0;
     console.log('scene.children.length: ' + scene.children.length);
     scene.remove(myObject);
     console.log('scene.children.length: ' + scene.children.length);
-
 
     console.log('myObject.children.length before remove: ' + myObject.children.length);
     while(myObject.children.length > 0){ 
        myObject.remove(myObject.children[0]); 
     } 
     console.log('myObject.children.length after remove: ' + myObject.children.length);
-
-    myObject.rotation.y=0;
     rotation = true;
     renderer.renderLists.dispose();//что это?
     cancelAnimationFrame(id);
