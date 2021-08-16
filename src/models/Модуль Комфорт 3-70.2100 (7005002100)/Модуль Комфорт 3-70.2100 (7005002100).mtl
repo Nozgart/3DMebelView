@@ -1,0 +1,19 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v4.1.134715837)
+
+newmtl DSP_16mm_Dub sonoma svetlyy
+illum 1
+map_Kd 5_textures\3025_Dub_Sonoma_Svetlyy.jpg
+
+newmtl Kromka 0_4*19 mm Dub sonoma svetlyy
+illum 1
+map_Kd 5_textures\3025_Dub_Sonoma_Svetlyy.jpg
+
+newmtl Khrom met
+illum 1
+map_Kd 5_textures\default.bmp
+
+newmtl Orgalit Belyy Fasadnyy 3 mm _Stavrovskaya_
+illum 1
+map_Kd 5_textures\110_SM_Belyy.jpg
+

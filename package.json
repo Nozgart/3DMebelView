@@ -13,7 +13,6 @@
     "url": "git+https://github.com/pinqy520/three-typescript-starter.git"
   },
   "keywords": [],
-  "author": "Huang Qi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pinqy520/three-typescript-starter/issues"
@@ -22,6 +21,7 @@
   "devDependencies": {
     "copy-webpack-plugin": "^9.0.0",
     "css-loader": "latest",
+    "file-loader": "^6.2.0",
     "html-webpack-plugin": "latest",
     "progress-bar-webpack-plugin": "latest",
     "style-loader": "latest",

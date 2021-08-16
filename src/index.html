@@ -3,21 +3,26 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Three.js Starter</title>    
-    <style>.output{ width:500px;height:500px;margin:auto;}
+    <title>Three.js Starter</title>
+    <style>
+        .output {
+            width: 500px;
+            height: 500px;
+            margin: auto;
+        }
     </style>
     <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             //Скрыть PopUp при загрузке страницы    
             PopUpHide();
         });
         //Функция отображения PopUp
-        function PopUpShow(){
+        function PopUpShow() {
             $("#popup1").show();
         }
         //Функция скрытия PopUp
-        function PopUpHide(){
+        function PopUpHide() {
             $("#popup1").hide();
         }
     </script>
@@ -25,17 +30,30 @@
 
 <body>
     <div class="page-top-main">
-        <h1 id="pagetitle">Модуль Комфорт 1-40.2100 (400*500*2100)</h1>
+        <h1 id="pagetitle">Модуль Комфорт 3-70.2100 (700*500*2100)</h1>
     </div>
-    
+
     <div class="b-container">
         Sample Text
-        <a class="startbutton" href="javascript:PopUpShow()">Show popup</a>
+        <a style="background:#0fa8ae;" class="startbutton" href="javascript:PopUpShow()">Show popup</a>
     </div>
-    <div class="b-popup" id="popup1">
-        <div class="b-popup-content">
-        <a class="stopbutton" href="javascript:PopUpHide()">Hide popup</a>
-        <button class="rotatebutton">Rotate</button>
+
+
+    <div class="fancybox-overlay fancybox-overlay-fixed" id="popup1" style="width: auto; height: auto; display: block;">
+        <div class="fancybox-wrap fancybox-desktop fancybox-type-image fancybox-opened" tabindex="-1" style="width: 430px; height: 330px; position: fixed; top: 286px; left: 122px; opacity: 1; overflow: visible;">
+            <div class="fancybox-skin" style="padding: 15px; width: auto; height: auto;">
+                <div class="fancybox-outer">
+                    <div class="fancybox-inner" style="overflow: visible; width: 400px; height: 300px;">
+                        <div class="fancybox-image">                        
+                    </div>                    
+                </div>
+                <div class="fancybox-title fancybox-title-float-wrap" style="width: 261px;">
+                    
+                    <span class="child">Модуль Комфорт 3-70.2100 (700*500*2100)</span>
+                </div>
+                    <a title="Закрыть" class="fancybox-item fancybox-close stopbutton" href="javascript:PopUpHide()"></a>
+                    <a title="Крутить" class="fancybox-item fancybox-rotate rotatebutton" href="javascript:;"></a>
+                </div>
         </div>
     </div>
 </body>

@@ -8,7 +8,7 @@ import {OBJLoader} from "three/examples/jsm/loaders/OBJLoader";
 import {DDSLoader} from "three/examples/jsm/loaders/DDSLoader";
 import {MTLLoader} from "three/examples/jsm/loaders/MTLLoader";
 
-const outputDir = document.querySelector(".b-popup-content");
+const outputDir = document.querySelector(".fancybox-image");
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, outputDir.clientWidth / outputDir.clientHeight, 0.1, 10);
 const renderer = new THREE.WebGLRenderer();
@@ -18,7 +18,7 @@ renderer.setSize(outputDir.clientWidth, outputDir.clientHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setClearColor(0xDDDDDD, 1);
 
-document.querySelector(".b-popup-content").appendChild(renderer.domElement);
+document.querySelector(".fancybox-image").appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enablePan = false;
@@ -52,6 +52,8 @@ var initializeModels = function()
     
     if(modelName)
     {
+        //if(modelName>5){ modelName = 1; }
+
         const manager = new THREE.LoadingManager();
         manager.addHandler(/\.dds$/i, new DDSLoader());
 
@@ -64,7 +66,7 @@ var initializeModels = function()
                     object.scale.set(0.001, 0.001, 0.001);
                     //myObject.position.x += smesh;
                     //smesh += 1;
-                    modelName++;
+                    //modelName++;
                     myObject.add(object);            
                 }, 
                 function (xhr) {
@@ -125,8 +127,8 @@ function stopAnimationFrame()
 }
 
 document.querySelector('.startbutton').addEventListener('click', initializeModels);
-document.querySelector('.stopbutton').addEventListener('click', stopAnimationFrame);
-document.querySelector('.rotatebutton').addEventListener('click', desideRotateObject);
+document.querySelector('.fancybox-item.fancybox-close.stopbutton').addEventListener('click', stopAnimationFrame);
+document.querySelector('.fancybox-item.fancybox-rotate.rotatebutton').addEventListener('click', desideRotateObject);
 
 // window.addEventListener('resize', onWindowResize, false);
 
